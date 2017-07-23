@@ -1,15 +1,24 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--
+/* Copyright Greg Connolly 2017.  This website was create for Curtin University School of Design for subject DIG 251
+* It is used for educational purposes only. Permission to copy, modify or use this software is permitted under creative commons 
+* licence for all uses so long as author credit is given.
+-->
+
 <html lang="en">
 	<head>
-		<meta charset="utf-8" >
+		<meta charset="utf-8" > <!-- Meta Tags -->
 		<meta name="about" content="australia zinc company for cricket" >
 		<title> Cover Zinc Company Home Page</title>
+		<!-- <link rel="stylesheet" type="text/css" href="css/main.css" />  Link to css style sheet -->
 	</head>
-	
 	<body>
-		<header id="secondary_header">
-			<nav>
-				<a href="index.html" title="Home Page">	<img src="icons/logo.svg" width="50" height="60" alt="Home" /></a> 	<!-- Greg Connolly-->
+		<header class="secondary_header"> <!-- secondary header class will be used for all secondary sites. -->
+			<nav> <!-- nav tag contains the nav list -->
+				<div class="icon">
+					<a href="index.html" title="Home Page">	
+						<img src="icons/logo.svg" width="60" height="80" alt="Home" />
+					</a>
+				</div>	<!-- Copyright Greg Connolly 2017-->
 				<ul>
 					<li><a href="index.html" title="Home Page">Home</a></li>
 					<li><a href="products.html" title="Products Page">Products</a></li>
@@ -17,52 +26,84 @@
 					<li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
 					<li><a href="about.html" title="About us Page">About Us</a></li>
 				</ul>
-				<div>
+				<div class="cart"> <!-- div tag to contain the cart icon + text for CSS styling (float to the right) -->
 					<a href="cart.html" title="Cart Page">
 						<img src="icons/cart.svg" width="35" height="35" alt="shopping cart" />
 						Cart
 					</a>
 				</div>
-			</nav>
-			<h1 class="secondary_header">About Us</h1>
+			</nav> <!-- end of nav tag -->
+			<div class="secondary_title_container">					
+					<h1 class="secondary_title">About Us</h1>
+			</div>
 		</header>
 		
-		<section id="secondary_section">
-			<!--Insert content here for each additional webpage  -->	
-			
-			
-			
+		<section class="secondary_section">
+			<div id="ethos"> <!-- div class used for CSS styling and for positioning -->
+				<p>Here at <strong class="trademark">Cover Zinc</strong> we want to provide the best possible product for cricketers that is good for you and good for the environment.  Through multiple human test subjects and recipe tweaks we have made a product that last all day, doesn't irritate the skin and doesn't cost the world.  The colours are uniquely Australian.   They are created with blending natural earths based upon Aboriginal paintings.  The <strong class="trademark">Cover Zinc</strong> applies easily and smells great with the addition of honey, cacao, coconut oil and other natural ingredients to each product.</p>
+					</div>
+			<div class="ethos">
+				<img src="icons/chemical_free.svg" alt="chemical free" style="width: 100px; height: 100px;" /> <!-- https://d30y9cdsu7xlg0.cloudfront.net/png/6068-200.png -->
+				<h3 class="ethos">chemical free</h3>
+					<p>Some chemicals in regular regular chemical based sunscreen can react with the UV-rays they are intending to block and create bi-products.  Chemicals can also seep through your skin and into your bloodstream.  We decide early that there are strictly no chemicals used in the making of <strong class="trademark">Cover Zinc</strong> </p>
+			</div>
+			<div class="ethos">
+				<img src="icons/mineral_based.svg" alt="mineral based" style="width: 100px; height: 100px;" /> <!-- https://www.buydmi.com/v/vspfiles/templates/lively/images/promo_pages/zero-hangover/best-hangover-cure-zero-hangover-mineral_icon.jpg -->
+					<h3 class="ethos">mineral based</h3>
+						<p>The only sun blockers in <strong class="trademark">Cover Zinc</strong> are Zinc Oxide and Titanium Oxide, two minerals that do not react with the skin.</p>
+			</div>
+			<div class="ethos"><img src="icons/high_performance.svg" alt="high performance" style="width: 100px; height: 100px;" /> <!-- https://static1.squarespace.com/static/5791bad06b8f5b84716b9f98/t/5792c9286a49633f949216e9/1469237566692/Cover+Drive.jpg?format=500w -->
+				<h3 class="ethos">high performance</h3>
+					<p>By getting the right blend of Zinc Oxide and Ti Oxide <strong class="trademark">Cover Zinc</strong> will last hours and is resistant to sweat, water and wiping away.</p>
+			</div>
+			<div class="ethos">
+				<img src="icons/oil_free.svg" alt="oil free" style="width: 100px; height: 100px;" /> <!-- https://cdn4.iconfinder.com/data/icons/bold-car-element-1/512/drawing8-512.png -->
+					<h3 class="ethos">oil free</h3>
+					<p>There are no refined oils used in the making of <strong class="trademark">Cover Zinc</strong> products.  Oils are used to make the zinc easier to apply, giving them a lighter body and also adding a pleseant scent.  All oils used are sustainably sourced and primarily from coconuts</p>
+			</div>
+			<div class="ethos">
+				<img src="icons/plastic_free.svg" alt="plastic free" style="width: 100px; height: 100px;" /> <!-- https://maxcdn.icons8.com/Share/icon/Food//bottle_of_water1600.png -->
+					<h3 class="ethos">plastic free</h3>
+						<p><strong class="trademark">Cover Zinc</strong> is packaged in a re-usable aluminium tin.  It can be popped into the recycle bin when empty to be re-smelted and used again.</p>
+			</div>
+			<div class="ethos">
+				<img src="icons/sensitive_skin.svg" alt="sensitive skin" style="width: 100px; height: 100px;" /> <!-- https://d30y9cdsu7xlg0.cloudfront.net/png/25894-200.png -->
+					<h3 class="ethos">sensitive skin</h3>
+						<p>As all the products are natural it is very gentle on the skin.  It is not irritating, meaning you will not be subconsciously trying to wipe it off all the time like other zincs</p>
+			</div>				
 		</section>
 	
-		<footer>
-			<a href="index.html" title="Home Page">	
-			<img src="icons/logo.svg" width="50" height="60" alt="Home" />
+		<footer> <!-- footer tag.  this section is the same for all of the pages -->
+			<a href="index.html" title="Home Page">	 <!-- logo clickable anchor returns user to home page -->
+			<img id="footer_logo" src="icons/logo.svg" width="60" height="80" alt="Home" />
 			</a>
-			<ul class="ul_footer">
-				<li><h4>Sitemap</h4></li>
-				<li><a href="index.html" title="Home Page">Home</a></li>
-				<li><a href="products.html" title="Products Page">Products</a></li>
-				<li><a href="health.html" title="Health Page">Health</a></li>
-				<li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
-				<li><a href="about.html" title="About us Page">About Us</a></li>
-			</ul>
-			<ul class="ul_footer">
-				<li><h4>Customer Care</h4></li>
-				<li><a href="information.html#returns">Returns</a></li>
-				<li><a href="information.html#delivery">Delivery</a></li>
-			</ul>
-			<ul class="ul_footer">
-				<li><h4>Policies</h4></li>
-				<li><a href="information.html#privacy">Privacy</a></li>
-				<li><a href="information.html#terms_of_service">Terms of Service</a></li>
-			</ul>
-			<ul class="ul_footer">
-				<li><h4>Contact Us</h4></li>
-				<li><a href="sorry.html"><img src="icons/facebook.svg" width="50" height="50" alt="facebook" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-				<li><a href="sorry.html"><img src="icons/instagram.svg" width="50" height="50" alt="instagram" /></a></li> 	<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-				<li><a href="sorry.html"><img src="icons/mail.svg" width="50" height="50" alt="email" /></a></li> 				<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-				<li><a href="sorry.html"><img src="icons/twitter.svg" width="50" height="50" alt="twitter" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-			</ul>
+			<div id="flexbox_footer">
+				<ul class="ul_footer"> <!-- first list for sitemap. the class ul_footer is for CSS styling as they are all the same.-->
+					<li><h4>Sitemap</h4></li>
+					<li><a href="index.html" title="Home Page">Home</a></li>
+					<li><a href="products.html" title="Products Page">Products</a></li>
+					<li><a href="health.html" title="Health Page">Health</a></li>
+					<li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
+					<li><a href="about.html" title="About us Page">About Us</a></li>
+				</ul>
+				<ul class="ul_footer"> <!-- second list for customer care information -->
+					<li><h4>Customer Care</h4></li>
+					<li><a href="information.html#returns">Returns</a></li>
+					<li><a href="information.html#delivery">Delivery</a></li>
+				</ul>
+				<ul class="ul_footer"> <!-- third list for policy information -->
+					<li><h4>Policies</h4></li>
+					<li><a href="information.html#privacy">Privacy</a></li>
+					<li><a href="information.html#terms_of_service">Terms of Service</a></li>
+				</ul>
+				<ul class="ul_footer"> <!-- final list for social medial contact links -->
+					<li><h4>Contact Us</h4></li>
+					<li class="icon_float"><a href="sorry.html"><img src="icons/facebook.svg" width="35" height="35" alt="facebook" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+					<li class="icon_float"><a href="sorry.html"><img src="icons/instagram.svg" width="35" height="35" alt="instagram" /></a></li> 	<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+					<li class="icon_float"><a href="sorry.html"><img src="icons/twitter.svg" width="35" height="35" alt="twitter" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+				</ul>
+			</div>
+			<p id="p_footer">&copy; Cover Zinc 2017 Author Greg Connolly.  Website is for Educational Purposes only and not a real product</p> <!-- copyright disclaimer -->
 		</footer>
 	</body>
 </html>

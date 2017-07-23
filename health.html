@@ -1,15 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--
+/* Copyright Greg Connolly 2017.  This website was create for Curtin University School of Design for subject DIG 251
+* It is used for educational purposes only. Permission to copy, modify or use this software is permitted under creative commons 
+* licence for all uses so long as author credit is given.
+-->
+
 <html lang="en">
 	<head>
-		<meta charset="utf-8" >
+		<meta charset="utf-8" > <!-- meta data tags -->
 		<meta name="about" content="australia zinc company for cricket" >
 		<title> Cover Zinc Company Home Page</title>
+		<!-- <link rel="stylesheet" type="text/css" href="css/main.css" /> Link to css style sheet -->
 	</head>
 	
 	<body>
 		<header id="secondary_header">
-			<nav>
-				<a href="index.html" title="Home Page">	<img src="icons/logo.svg" width="50" height="60" alt="Home" /></a> 	<!-- Greg Connolly-->
+			<nav> <!-- nav tag contains the nav list -->
+				<div class="icon"><a href="index.html" title="Home Page">	<img src="icons/logo.svg" width="50" height="60" alt="Home" /></a></div> 	<!-- Copyright Greg Connolly 2017-->
 				<ul>
 					<li><a href="index.html" title="Home Page">Home</a></li>
 					<li><a href="products.html" title="Products Page">Products</a></li>
@@ -17,33 +23,32 @@
 					<li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
 					<li><a href="about.html" title="About us Page">About Us</a></li>
 				</ul>
-				<div>
+				<div> <!-- div tag to contain the cart icon + text for CSS styling (float to the right) -->
 					<a href="cart.html" title="Cart Page">
 						<img src="icons/cart.svg" width="35" height="35" alt="shopping cart" />
 						Cart
 					</a>
 				</div>
-			</nav>
+			</nav> <!-- end of nav tag -->
 			<h1 class="secondary_header">Health</h1>
 		</header>
 		
-		<section id="secondary_section">
-			<!--Insert content here for each additional webpage  -->	
+		<section class="secondary_section"> <!--Insert content here for each additional webpage  -->	
 			<p>The first thing to understand about how a zinc prevents skin from becoming burnt from the sun, is to understand what actually happens.  Everyone knows that sunburn is caused by being in the sun for too long. It is told endlessly to us as children.  What is actually doing the burning though?  The sun along with visible light rays that allows us to see during the day, also produces ultra violet light rays.  Ultra Violet rays can be broken down further into UVA (shortwaves) and UVB (long-wave) The wavelength of these light rays are smaller than visible light and pass through clouds, hence why we can still get burnt on cloudy days.  When the UV rays come into contact with our skin the energy they carry can burn the epidermis and the dermis layers.  If the damage that is created results in a cellular mutation, skin cancer can be caused.  </p>
 			<p>To best way to prevent the likelihood of skin cancer is to prevent the sun from making contact with the skin.  Staying in the shade and clothing do not work in all situations, hence the need for sunscreen or sunblock.  Sunscreen, when applied to the skin provides a protective layer on the surface.  There are however two main different types of sunscreen.  Mineral, which is the more natural process Cover Zinc uses, and Chemical.  There are many differences between the two.</p>
-			<table style="width: 50%;">
-				<tr>
+			<table style="width: 50%;"> <!-- table is the best way to organise the data for a comparison of mineral v chemical sunblocks. set to 50% of page width will be centered with CSS.  may need a div to do this. -->
+				<tr> <!-- table headers will be styled using the <tr> tag only as this is the only table on the website -->
 					<th>Property</th>
 					<th>Mineral Sunscreen</th>
 					<th>Chemical Sunscreen</th>
 				</tr>
 				<tr>
-					<td class="property">How do they work?</td>
+					<td class="property">How do they work?</td> <!-- table data will be styled using a class in CSS -->
 					<td>Physical sunscreens protect your skin from the sun by deflecting or blocking the sun's rays.<br />	<img src="images/mineral_zinc.png" width="300" height="200" alt="Health Benefits" /></td> <!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
 					<td>Chemical sunscreens work by absorbing the sun's rays. Some chemical filters can scatter sun rays, but still mostly just absorb them.<br /><img src="images/chemical_zinc.png" width="300" height="200" alt="Health Benefits" /></td> <!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
 				</tr>
 				<tr>
-					<td class="property">Active Filters</td>
+					<td class="property">Active Filters</td> <!-- table data for active ingredients. -->
 					<td>
 						<ul>
 							<li>Titanium Dioxide</li>
@@ -73,53 +78,51 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="property">Protection</td>
+					<td class="property">Protection</td> <!-- table data for protection properties -->
 					<td>Titanium dioxide protects against UVB rays, but not the full spectrum of UVA rays.<br />	Zinc oxide protects against the entire spectrum of UVB and UVA rays.<br /> Starts protecting immediately upon application.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
 					<td>Range of protection for chemical filter will depend on the particular active and its stability. <br />	No single chemical filter, protects against the full spectrum UVA rays with a combination of multiple ingredients making up the sunscreen. <br />	Must wait 20 minutes after application for effective sun protection.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
 				</tr>
 				<tr>
-					<td class="property">Safety</td>
+					<td class="property">Safety</td> <!-- table data for comparison of safety concerns when used on skin -->
 					<td>Pretty safe, FDA approved.<br />Doesn't cause free radicals.<br />Titanium dioxide can be problematic for some people.<br />Zinc oxide is generally safe. It can be used on delicate skin and is a main ingredient in diaper rash cream.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
 					<td>Generally safe, however some chemical filters generate free radicals which can cause skin damage, irritation, and aging.<br />Many chemical UV filters have not been FDA approved in the States, but are in sunscreens sold in Europe and Asia.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
 				</tr>
-			
 			</table>
-			
-			
-			
-			
 		</section>
 	
-		<footer>
-			<a href="index.html" title="Home Page">	
-			<img src="icons/logo.svg" width="50" height="60" alt="Home" />
+		<footer> <!-- footer tag.  this section is the same for all of the pages -->
+			<a href="index.html" title="Home Page">	 <!-- logo clickable anchor returns user to home page -->
+			<img id="footer_logo" src="icons/logo.svg" width="60" height="80" alt="Home" />
 			</a>
-			<ul class="ul_footer">
-				<li><h4>Sitemap</h4></li>
-				<li><a href="index.html" title="Home Page">Home</a></li>
-				<li><a href="products.html" title="Products Page">Products</a></li>
-				<li><a href="health.html" title="Health Page">Health</a></li>
-				<li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
-				<li><a href="about.html" title="About us Page">About Us</a></li>
-			</ul>
-			<ul class="ul_footer">
-				<li><h4>Customer Care</h4></li>
-				<li><a href="information.html#returns">Returns</a></li>
-				<li><a href="information.html#delivery">Delivery</a></li>
-			</ul>
-			<ul class="ul_footer">
-				<li><h4>Policies</h4></li>
-				<li><a href="information.html#privacy">Privacy</a></li>
-				<li><a href="information.html#terms_of_service">Terms of Service</a></li>
-			</ul>
-			<ul class="ul_footer">
-				<li><h4>Contact Us</h4></li>
-				<li><a href="sorry.html"><img src="icons/facebook.svg" width="50" height="50" alt="facebook" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-				<li><a href="sorry.html"><img src="icons/instagram.svg" width="50" height="50" alt="instagram" /></a></li> 	<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-				<li><a href="sorry.html"><img src="icons/mail.svg" width="50" height="50" alt="email" /></a></li> 				<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-				<li><a href="sorry.html"><img src="icons/twitter.svg" width="50" height="50" alt="twitter" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-			</ul>
+			<div id="flexbox_footer">
+				<ul class="ul_footer"> <!-- first list for sitemap. the class ul_footer is for CSS styling as they are all the same.-->
+					<li><h4>Sitemap</h4></li>
+					<li><a href="index.html" title="Home Page">Home</a></li>
+					<li><a href="products.html" title="Products Page">Products</a></li>
+					<li><a href="health.html" title="Health Page">Health</a></li>
+					<li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
+					<li><a href="about.html" title="About us Page">About Us</a></li>
+				</ul>
+				<ul class="ul_footer"> <!-- second list for customer care information -->
+					<li><h4>Customer Care</h4></li>
+					<li><a href="information.html#returns">Returns</a></li>
+					<li><a href="information.html#delivery">Delivery</a></li>
+				</ul>
+				<ul class="ul_footer"> <!-- third list for policy information -->
+					<li><h4>Policies</h4></li>
+					<li><a href="information.html#privacy">Privacy</a></li>
+					<li><a href="information.html#terms_of_service">Terms of Service</a></li>
+				</ul>
+				<ul class="ul_footer"> <!-- final list for social medial contact links -->
+					<li><h4>Contact Us</h4></li>
+					<li class="icon_float"><a href="sorry.html"><img src="icons/facebook.svg" width="35" height="35" alt="facebook" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+					<li class="icon_float"><a href="sorry.html"><img src="icons/instagram.svg" width="35" height="35" alt="instagram" /></a></li> 	<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+					<li class="icon_float"><a href="sorry.html"><img src="icons/twitter.svg" width="35" height="35" alt="twitter" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+				</ul>
+			</div>
+			<p id="p_footer">&copy; Cover Zinc 2017 Author Greg Connolly.  Website is for Educational Purposes only and not a real product</p> <!-- copyright disclaimer -->
 		</footer>
+		
 	</body>
 </html>
 

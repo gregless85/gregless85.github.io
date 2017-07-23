@@ -1,0 +1,284 @@
+/********** major layout and backgrounds ********/
+
+body {
+	margin: 0 auto;
+	font: normal 100% "coves", moon, sans-serif;
+	width: 100%;
+	min-width: 1080px;
+	
+}
+
+header {
+	background-image: url(../images/header_background.jpeg);
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+		
+}	
+	
+.secondary_header {
+	background-image: url(../images/header_background.jpeg);
+	
+}
+
+footer {
+	clear: both;
+	border-top: 5px solid;
+	border-top-color: black;
+	box-shadow: 0px -7px 5px rgba(0, 0, 0, 0.68);
+}
+
+
+
+/******** header and nav layout styling *********/
+
+#home_header {
+	height: 720px;
+	border-bottom: 5px solid;
+	border-bottom-color: black;
+	box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.68);
+}
+
+
+.icon {
+	float: left;
+	padding: 0;
+	position: absolute;
+	left: 10px;
+	bottom: 10%;
+	
+
+	
+}
+
+.cart {
+	margin: auto;
+	position: absolute;
+	right: 10px;
+	bottom: 40%;
+	width: 120px;	
+}	
+
+.cart a {
+	position: absolute;
+	content: center;
+	color: white;
+	bottom: 40%;	
+}
+
+.cart a img {
+	margin-right: 7px;
+}
+
+/********** use nav to centre location of list **********/
+
+nav {
+	text-transform: uppercase;
+	text-shadow: -2px 2px 2px rgba (0, 0, 0, 0.65);
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	height: 115px;
+	position: relative;
+}
+
+nav ul {
+	width: 70%;
+	padding-left: 10px;
+	position: absolute;
+	bottom: 40%;
+	left:80px ;
+	margin: auto;
+		
+}
+
+nav ul li {
+	float: left;
+	list-style-type: none;
+	display: block;
+	width: 20%;
+		
+
+}
+
+/********** content section styling for home page*********/
+
+#home_section {
+	background-image: url(../images/white_background.png);
+	background-size: 30%;
+	background-repeat: repeat;
+	
+}
+
+#product_buy {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+}
+
+#product_buy a{
+	margin: 70px auto 0px auto;
+}
+
+#product_image {
+	clear: both;
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+		
+}
+
+#product_image a{
+	margin: 10px auto 90px auto;
+		
+}
+
+#product_image a img {
+	margin-right: 30px; /*this is just to adjust for the image shadow which skewed the centre */
+}
+
+/*********** secondary content styling ***********/
+
+.secondary_section {
+	background-image: url(../images/white_background.png);
+	background-size: 30%;
+	background-repeat: repeat;
+	
+}
+
+
+
+/******** secondary header styling *********/
+
+.secondary_header {
+	border-bottom: 5px solid;
+	border-bottom-color: black;
+	box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.68);
+}
+
+.secondary_title_container {
+	clear: both;
+	height: 110px;
+	padding: 20px;
+	
+}
+
+.secondary_title {
+	text-align: left;
+	margin: auto;
+	position: relative;
+}
+
+/********* footer styling **********/
+
+footer {
+	background-color: rgb(51, 51, 51);
+	color: rgb(224, 224, 224);
+	
+}
+
+#footer_logo {
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+#flexbox_footer {
+	width: 90%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+	
+}
+
+.ul_footer{
+	margin: 0px auto;
+	padding: 0px;
+	width: 300px;
+		
+}
+.ul_footer li {
+	color: rgb(224, 224, 224);
+	list-style-type: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	
+}
+
+.icon_float {
+	float: left;
+	
+}
+
+.icon_float img {
+		margin: 0px 10px;
+}
+
+
+
+/********* global font and styling **********/
+
+h1 {
+	font-family: coves, moon, sans-serif;
+	font-weight: normal;
+	font-size: 72px;
+	letter-spacing: 2.5rem;
+	color: black;
+	clear: both;
+	position: absolute;
+	top: 32%;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	text-transform: uppercase;
+	text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.65);
+}
+
+h2 {
+	font-family: coves, moon, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: 1em;
+	color: black;
+	clear: both;
+	position: absolute;
+	top: 45%;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.65);
+
+}
+
+h4 {
+	font-family: moon,"coves", sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	margin: 30px 5px 10px 0px;
+}
+
+p {
+	font-size: 1em;
+	text-shadow: 2px 0 2px #000000;
+}
+
+/* anchor responsive global styling */
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(84, 33, 137);
+	
+}
+
+a:hover {
+	color: rgba(0, 0, 0, .30);
+}
