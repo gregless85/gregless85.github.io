@@ -1,0 +1,24 @@
+
+
+/************** section styling ************/
+
+.secondary_section {
+	padding: 100px 20px;
+	margin-left: 20px;
+	
+}
+
+
+
+/********* specifc font and styling .  H1 change to allow for the reduced size in the header.**********/
+
+h1 {
+	position: relative;
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+
+
+

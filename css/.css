@@ -1,0 +1,17 @@
+body {
+	margin: 0 auto;
+	font: normal 100% "coves", moon, sans-serif;
+	width: 100%;
+	min-width: 1080px;
+}
+
+header {
+	background-image: url(../images/header_background.jpeg);
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+		
+}	
+	
+.secondary_header {
+	background-image: url(../images/header_background.jpeg);

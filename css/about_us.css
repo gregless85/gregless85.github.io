@@ -1,0 +1,86 @@
+
+
+/************** section styling ************/
+
+.secondary_section {
+	padding: 50px 20px;
+}
+
+#ethos {
+	width: 40%;
+	margin: 35px auto 100px auto;
+	min-width: 700px;
+}
+
+.ethosright, .ethosleft {
+	width: 20%;
+	min-width: 400px;
+	margin: 50px 0px;
+	padding: 0px 20px;
+}
+
+.ethosleft img, .ethosright img {
+	display: block;
+	margin: auto;	
+}
+
+
+#firstline {
+	width: 50%;
+	min-width: 900px;
+	margin: 10px auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+}
+
+#secondline {
+	width: 70%;
+	min-width: 900px;
+	margin: 10px auto;	
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-between;
+	justify-content: space-between;
+}
+
+#thirdline {
+	width: 50%;
+	min-width: 900px;
+	margin: 10px auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+	
+}
+
+
+/********* specifc font and styling .  H1 change to allow for the reduced size in the header.**********/
+
+h1 {
+	position: relative;
+	text-align: left;
+	margin-left: 20px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 24px;
+	color: black;
+	clear: both;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	letter-spacing: 2px;
+}
+
+h3 {
+	text-align: center;
+	margin: 5px auto;
+}
+
+p {
+	margin: 5px auto;
+}

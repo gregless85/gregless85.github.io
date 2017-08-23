@@ -6,21 +6,20 @@
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8" >
+		<meta charset="utf-8" > <!-- meta data tags -->
 		<meta name="about" content="australia zinc company for cricket" >
-		<title> Cover Zinc Company Home Page</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css" /> <!-- Link to css style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/gallery.css" /> <!-- this will specifically overwrite any core styling.  Will be used for the main section -->
+		<title> Cover Zinc Company Contact Us Page</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" /> <!-- This will be used to style all common areas like the nav and header. -->
+		<link rel="stylesheet" type="text/css" href="css/contact.css" /> <!-- Link to css style sheet.  This is for the page specific styling -->
+		
 	</head>
-	
+
 	<body>
-		<header class="secondary_header"> <!-- secondary header class will be used for all secondary sites. -->
+		<header class="secondary_header"> <!-- header for contact us is different from other pages.  nav is removed so users do not loose focus on checking out -->
 			<nav> <!-- nav tag contains the nav list -->
-				<div class="icon">
-					<a href="index.html" title="Home Page">	
-						<img src="icons/logo.svg" width="60" height="80" alt="Home" />
+				<div class="icon">	<a href="index.html" title="Home Page">	<img src="icons/logo.svg" width="60" height="80" alt="Home" /> <!-- Copyright Greg Connolly 2017 -->
 					</a>
-				</div>	<!-- Copyright Greg Connolly 2017-->
+				</div>	
 				<ul>
 					<li><a href="index.html" title="Home Page">Home</a></li>
 					<li><a href="products.html" title="Products Page">Products</a></li>
@@ -32,28 +31,23 @@
 					<a href="contact.html" title="Contact Us Page">Contact Us</a>
 				</div>
 			</nav> <!-- end of nav tag -->
-			<div class="secondary_title_container">					
-					<h1 class="secondary_title">Gallery</h1>
-			</div>
-		</header>
-			
-		<section class="secondary_section"> <!--Insert content here for each additional webpage  -->	
-			<div id ="hashtags"> <!-- list for hash tags for users to tag their photos with -->
-				<ul>
-					<li>#coverzinc</li>
-					<li>#cricketsunprotection</li>
-					<li>#theashescoverzinc</li>
-					<li>#brisbanetestcoverzinc</li>
-				</ul>		
-			 </div>
-			<div id="instagram"> <!-- these photos used for example only.  A real website would use the instagram API to insert photos.  This requires javascript or jQuery though -->
-				<img src="instagram/instagram1.jpg" alt="instagram picture" width="350px" height="350px" />
-				<img src="instagram/instagram2.jpg" alt="instagram picture" width="350px" height="350px" />
-				<img src="instagram/instagram3.jpg" alt="instagram picture" width="350px" height="350px" />
-				<img src="instagram/instagram4.jpg" alt="instagram picture" width="350px" height="350px" /> 
+			<div class="secondary_title_container">		
+				<h1>Contact Us</h1>
 			</div>	
+		</header>
+
+		<section class="secondary_section"> <!--Insert content here for each additional webpage  -->
+			<form method="post" action="">
+				<label for="name">Name</label> <br />
+				<input type="text" name="name" placeholder="eg. Joe Bloggs" /> <br />
+				<label for="email">Email</label> <br />
+				<input type="email" name="email" placeholder="eg. joebloggs12@gmail.com" /> <br />
+				<label for="message">Message</label> <br />
+				<textarea name="message" rows="10" cols="40" placeholder="Got a question about one of our products.  Get in contact with us here"></textarea> <br />
+				<input id="submit" type="submit" value="Submit" /> <br />
+			</form>
 		</section>
-	
+
 		<footer> <!-- footer tag.  this section is the same for all of the pages -->
 			<a href="index.html" title="Home Page">	 <!-- logo clickable anchor returns user to home page -->
 			<img id="footer_logo" src="icons/logo.svg" width="60" height="80" alt="Home" />
@@ -87,7 +81,6 @@
 			</div>
 			<p id="p_footer">&copy; Cover Zinc 2017 Author Greg Connolly.  Website is for Educational Purposes only and not a real product</p> <!-- copyright disclaimer -->
 		</footer>
+				
 	</body>
 </html>
-
-

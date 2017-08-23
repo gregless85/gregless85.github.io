@@ -1,0 +1,45 @@
+
+
+/************** section styling ************/
+
+.secondary_section {
+	padding: 10px 20px;
+}
+
+#hashtags li {
+	list-style-type: none;
+	margin: 10px auto;
+	font-size: 24px;
+	text-align: center;
+	
+}
+
+#instagram {
+	width: 80%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+	margin: 170px auto;
+}
+
+#instagram img {
+	border: 3px solid;
+	border-color: black;
+	box-shadow: -7px 7px 5px rgba(0, 0, 0, 0.68);
+	border-radius: 8px;
+	margin: 10px;
+}
+
+/********* specifc font and styling .  H1 change to allow for the reduced size in the header.**********/
+
+h1 {
+	position: relative;
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+
+
+

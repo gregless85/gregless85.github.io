@@ -9,13 +9,16 @@
 		<meta charset="utf-8" > <!-- meta data tags -->
 		<meta name="about" content="australia zinc company for cricket" >
 		<title> Cover Zinc Company Home Page</title>
-		<!-- <link rel="stylesheet" type="text/css" href="css/main.css" /> Link to css style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/main.css" /> <!-- Link to css style sheet -->
+		<link rel="stylesheet" type="text/css "href="css/health.css" /> <!-- this will specifically overwrite any core styling.  Will be used for the main section -->
 	</head>
 	
 	<body>
-		<header id="secondary_header">
+		<header class="secondary_header"> <!-- header for contact us is different from other pages.  nav is removed so users do not loose focus on checking out -->
 			<nav> <!-- nav tag contains the nav list -->
-				<div class="icon"><a href="index.html" title="Home Page">	<img src="icons/logo.svg" width="50" height="60" alt="Home" /></a></div> 	<!-- Copyright Greg Connolly 2017-->
+				<div class="icon">	<a href="index.html" title="Home Page">	<img src="icons/logo.svg" width="60" height="80" alt="Home" /> <!-- Copyright Greg Connolly 2017 -->
+					</a>
+				</div>	
 				<ul>
 					<li><a href="index.html" title="Home Page">Home</a></li>
 					<li><a href="products.html" title="Products Page">Products</a></li>
@@ -23,20 +26,19 @@
 					<li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
 					<li><a href="about.html" title="About us Page">About Us</a></li>
 				</ul>
-				<div> <!-- div tag to contain the cart icon + text for CSS styling (float to the right) -->
-					<a href="cart.html" title="Cart Page">
-						<img src="icons/cart.svg" width="35" height="35" alt="shopping cart" />
-						Cart
-					</a>
+				<div class="contact"> <!-- div tag to float to the right in CSS styling  -->
+					<a href="contact.html" title="Contact Us Page">Contact Us</a>
 				</div>
 			</nav> <!-- end of nav tag -->
-			<h1 class="secondary_header">Health</h1>
+			<div class="secondary_title_container">		
+				<h1>Health</h1>
+			</div>	
 		</header>
-		
+				
 		<section class="secondary_section"> <!--Insert content here for each additional webpage  -->	
-			<p>The first thing to understand about how a zinc prevents skin from becoming burnt from the sun, is to understand what actually happens.  Everyone knows that sunburn is caused by being in the sun for too long. It is told endlessly to us as children.  What is actually doing the burning though?  The sun along with visible light rays that allows us to see during the day, also produces ultra violet light rays.  Ultra Violet rays can be broken down further into UVA (shortwaves) and UVB (long-wave) The wavelength of these light rays are smaller than visible light and pass through clouds, hence why we can still get burnt on cloudy days.  When the UV rays come into contact with our skin the energy they carry can burn the epidermis and the dermis layers.  If the damage that is created results in a cellular mutation, skin cancer can be caused.  </p>
-			<p>To best way to prevent the likelihood of skin cancer is to prevent the sun from making contact with the skin.  Staying in the shade and clothing do not work in all situations, hence the need for sunscreen or sunblock.  Sunscreen, when applied to the skin provides a protective layer on the surface.  There are however two main different types of sunscreen.  Mineral, which is the more natural process Cover Zinc uses, and Chemical.  There are many differences between the two.</p>
-			<table style="width: 50%;"> <!-- table is the best way to organise the data for a comparison of mineral v chemical sunblocks. set to 50% of page width will be centered with CSS.  may need a div to do this. -->
+			<p>The first thing to understand about how a zinc prevents skin from becoming burnt from the sun, is to understand what actually happens.  Everyone knows that sunburn is caused by being in the sun for too long. It is told endlessly to us as children.  What is actually doing the burning though?  The sun along with visible light rays that allows us to see during the day, also produces ultra violet light rays.  Ultra Violet rays can be broken down further into UVA (shortwaves) and UVB (long-wave) The wavelength of these light rays are smaller than visible light and pass through clouds, hence why we can still get burnt on cloudy days.  When the UV rays come into contact with our skin the energy they carry can burn the epidermis and the dermis layers.  If the damage that is created results in a cellular mutation, skin cancer can be caused.  </p><br />
+			<p>The best way to prevent the likelihood of skin cancer is to prevent the sun from making contact with the skin.  Staying in the shade and clothing do not work in all situations, hence the need for sunscreen or sunblock.  Sunscreen, when applied to the skin provides a protective layer on the surface.  There are however two main different types of sunscreen.  Mineral, which is the more natural process Cover Zinc uses, and Chemical.  There are many differences between the two.</p>
+			<table width="50%"> <!-- table is the best way to organise the data for a comparison of mineral v chemical sunblocks. set to 50% of page width will be centered with CSS.  may need a div to do this. -->
 				<tr> <!-- table headers will be styled using the <tr> tag only as this is the only table on the website -->
 					<th>Property</th>
 					<th>Mineral Sunscreen</th>
@@ -79,13 +81,13 @@
 				</tr>
 				<tr>
 					<td class="property">Protection</td> <!-- table data for protection properties -->
-					<td>Titanium dioxide protects against UVB rays, but not the full spectrum of UVA rays.<br />	Zinc oxide protects against the entire spectrum of UVB and UVA rays.<br /> Starts protecting immediately upon application.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
-					<td>Range of protection for chemical filter will depend on the particular active and its stability. <br />	No single chemical filter, protects against the full spectrum UVA rays with a combination of multiple ingredients making up the sunscreen. <br />	Must wait 20 minutes after application for effective sun protection.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
+					<td>Titanium dioxide protects against UVB rays, but not the full spectrum of UVA rays.<br /><br />	Zinc oxide protects against the entire spectrum of UVB and UVA rays.<br /><br /> Starts protecting immediately upon application.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
+					<td>Range of protection for chemical filter will depend on the particular active and its stability. <br /><br />	No single chemical filter, protects against the full spectrum UVA rays with a combination of multiple ingredients making up the sunscreen. <br /><br />	Must wait 20 minutes after application for effective sun protection.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
 				</tr>
 				<tr>
 					<td class="property">Safety</td> <!-- table data for comparison of safety concerns when used on skin -->
-					<td>Pretty safe, FDA approved.<br />Doesn't cause free radicals.<br />Titanium dioxide can be problematic for some people.<br />Zinc oxide is generally safe. It can be used on delicate skin and is a main ingredient in diaper rash cream.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
-					<td>Generally safe, however some chemical filters generate free radicals which can cause skin damage, irritation, and aging.<br />Many chemical UV filters have not been FDA approved in the States, but are in sunscreens sold in Europe and Asia.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
+					<td>Pretty safe, FDA approved.<br /><br />Doesn't cause free radicals.<br /><br />Titanium dioxide can be problematic for some people.<br /><br />Zinc oxide is generally safe. It can be used on delicate skin and is a main ingredient in diaper rash cream.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
+					<td>Generally safe, however some chemical filters generate free radicals which can cause skin damage, irritation, and aging.<br /><br />Many chemical UV filters have not been FDA approved in the States, but are in sunscreens sold in Europe and Asia.</td><!-- http://www.skinacea.com/sunscreen/physical-vs-chemical-sunscreen.html#.WW16JsZ7FTG -->
 				</tr>
 			</table>
 		</section>
@@ -102,6 +104,7 @@
 					<li><a href="health.html" title="Health Page">Health</a></li>
 					<li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
 					<li><a href="about.html" title="About us Page">About Us</a></li>
+					<li><a href="contact.html" title="Contact Us Page">Contact Us</a></li>
 				</ul>
 				<ul class="ul_footer"> <!-- second list for customer care information -->
 					<li><h4>Customer Care</h4></li>
@@ -114,15 +117,14 @@
 					<li><a href="information.html#terms_of_service">Terms of Service</a></li>
 				</ul>
 				<ul class="ul_footer"> <!-- final list for social medial contact links -->
-					<li><h4>Contact Us</h4></li>
-					<li class="icon_float"><a href="sorry.html"><img src="icons/facebook.svg" width="35" height="35" alt="facebook" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-					<li class="icon_float"><a href="sorry.html"><img src="icons/instagram.svg" width="35" height="35" alt="instagram" /></a></li> 	<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
-					<li class="icon_float"><a href="sorry.html"><img src="icons/twitter.svg" width="35" height="35" alt="twitter" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+					<li><h4>Be Social</h4></li>
+					<li class="icon_float"><a href="http://www.facebook.com"><img src="icons/facebook.svg" width="35" height="35" alt="facebook" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+					<li class="icon_float"><a href="http://instagram.com"><img src="icons/instagram.svg" width="35" height="35" alt="instagram" /></a></li> 	<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
+					<li class="icon_float"><a href="http://twitter.com"><img src="icons/twitter.svg" width="35" height="35" alt="twitter" /></a></li> 		<!-- Morphix Design Studio 2017 https://picons.me/download-social.php -->
 				</ul>
 			</div>
 			<p id="p_footer">&copy; Cover Zinc 2017 Author Greg Connolly.  Website is for Educational Purposes only and not a real product</p> <!-- copyright disclaimer -->
-		</footer>
-		
+		</footer>		
 	</body>
 </html>
 

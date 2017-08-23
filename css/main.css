@@ -5,7 +5,8 @@ body {
 	font: normal 100% "coves", moon, sans-serif;
 	width: 100%;
 	min-width: 1080px;
-	
+	min-height: 100vh;
+		
 }
 
 header {
@@ -13,19 +14,18 @@ header {
 	background-size: 100%;
 	background-position: center;
 	position: relative;
-		
+
 }	
 	
-.secondary_header {
-	background-image: url(../images/header_background.jpeg);
-	
-}
+
 
 footer {
 	clear: both;
 	border-top: 5px solid;
 	border-top-color: black;
 	box-shadow: 0px -7px 5px rgba(0, 0, 0, 0.68);
+	background-color: rgb(51, 51, 51);
+	color: rgb(224, 224, 224);
 }
 
 
@@ -51,30 +51,27 @@ footer {
 	
 }
 
-.cart {
-	margin: auto;
+.contact {
+	margin-right: 20px;
 	position: absolute;
 	right: 10px;
 	bottom: 40%;
 	width: 120px;	
 }	
 
-.cart a {
+.contact a {
 	position: absolute;
 	content: center;
 	color: white;
 	bottom: 40%;	
 }
 
-.cart a img {
-	margin-right: 7px;
-}
+
 
 /********** use nav to centre location of list **********/
 
 nav {
 	text-transform: uppercase;
-	text-shadow: -2px 2px 2px rgba (0, 0, 0, 0.65);
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: bold;
@@ -105,18 +102,13 @@ nav ul li {
 
 #home_section {
 	background-image: url(../images/white_background.png);
-	background-size: 30%;
+	background-size: 700px;
 	background-repeat: repeat;
+	padding-top: 100px;	
+	
 	
 }
 
-#product_buy {
-	width: 100%;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content:space-around;
-	justify-content: space-around;
-}
 
 #product_buy a{
 	margin: 70px auto 0px auto;
@@ -145,7 +137,7 @@ nav ul li {
 
 .secondary_section {
 	background-image: url(../images/white_background.png);
-	background-size: 30%;
+	background-size: 700px;
 	background-repeat: repeat;
 	
 }
@@ -175,16 +167,12 @@ nav ul li {
 
 /********* footer styling **********/
 
-footer {
-	background-color: rgb(51, 51, 51);
-	color: rgb(224, 224, 224);
+
 	
-}
 
 #footer_logo {
 	float: left;
-	margin-left: 20px;
-	margin-top: 30px;
+	margin: 30px 20px 20px 20px;
 }
 
 #flexbox_footer {
@@ -193,6 +181,7 @@ footer {
 	display: flex;
 	-webkit-justify-content:space-around;
 	justify-content: space-around;
+	margin-bottom: 30px;
 	
 }
 
@@ -216,7 +205,7 @@ footer {
 }
 
 .icon_float img {
-		margin: 0px 10px;
+	margin: 0px 10px;
 }
 
 
@@ -236,7 +225,6 @@ h1 {
 	width: 100%;
 	margin: auto;
 	text-transform: uppercase;
-	text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.65);
 }
 
 h2 {
@@ -251,7 +239,7 @@ h2 {
 	text-align: center;
 	width: 100%;
 	margin: auto;
-	text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.65);
+	
 
 }
 
@@ -264,7 +252,7 @@ h4 {
 
 p {
 	font-size: 1em;
-	text-shadow: 2px 0 2px #000000;
+	
 }
 
 /* anchor responsive global styling */

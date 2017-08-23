@@ -1,0 +1,57 @@
+
+
+/************** section styling ************/
+
+.secondary_section {
+	padding: 100px 20px;
+	
+}
+
+
+
+.left_product, .right_product {
+	clear: both;
+	width: 50%;
+	margin: auto;
+	height: 450px;
+	align-items: center;
+
+}
+
+.left_product p {
+	width: 40%;
+	float: left;
+	margin: 20px;
+	padding: 100px 0px;
+	
+}
+
+.right_product p {
+	width: 40%;
+	float: right;
+	margin: 20px;
+	padding: 100px 0px;
+}
+
+.right_product img {
+	float: right;
+	margin: 20px;
+}
+
+.left_product img {
+	float: left;
+	margin: 20px;
+}
+
+/********* specifc font and styling .  H1 change to allow for the reduced size in the header.**********/
+
+h1 {
+	position: relative;
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+
+
+
